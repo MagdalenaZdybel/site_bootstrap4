@@ -46,7 +46,7 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col red green">1</div>
+            <div class="col red green">jestem sam jeden na całą szerokość ekranu</div>
         </div>
     </div>
     <div class="container">
@@ -88,7 +88,6 @@
         <div class="col green">3 - zaczynam sie na końcu wiersza</div>
     </div>
 </div>
-</body>
 <div class="container"> <!-- centrowanie wertykalne kolumn-->
     <div class="row backgroundColorGrey">
         <div class="col align-self-start red">1 jestem kolumną na gorze</div>
@@ -96,4 +95,78 @@
         <div class="col align-self-end green">3 jestem kolumną na koncu</div>
     </div>
 </div>
+<div class="container"> <!-- centrowanie horyzontalne -->
+    <div class="row justify-content-start backgroundColorGrey">
+        <div class="col-4 green">1</div>
+        <div class="col-4 green">2</div>
+    </div>
+    <div class="row justify-content-center backgroundColorGrey">
+        <div class="col-4 green">1</div>
+        <div class="col-4 green">2</div>
+    </div>
+    <div class="row justify-content-end backgroundColorGrey">
+        <div class="col-4 green">1</div>
+        <div class="col-4 green">2</div>
+    </div>
+    <div class="row justify-content-around backgroundColorGrey"> <!-- wyśrodkowanie - równe marginesy lewy-prawy-->
+        <div class="col-4 green">1</div>
+        <div class="col-4 green">2</div>
+    </div>
+    <div class="row justify-content-between backgroundColorGrey"> <!-- wyśrodkowanie - równe marginesy między sobą do klasy wiersza-->
+        <div class="col-4 green">1</div>
+        <div class="col-4 green">2</div>
+    </div>
+</div>
+<div class="container exercise_seventh">
+    <div class="row justify-content-center backgroundColorGrey">
+        <div class="col-4 red">1</div>
+    </div>
+    <div class="row justify-content-center backgroundColorGrey">
+        <div class="col-4 red">1</div>
+        <div class="col-4 red">2</div>
+    </div>
+    <div class="row justify-content-around backgroundColorGrey">
+        <div class="col-3 red">1</div>
+        <div class="col-3 red">2</div>
+        <div class="col-3 red">3</div>
+    </div>
+</div>
+<div class="container">
+    <div class="row no-gutters backgroundColorGrey">
+        <div class="col-8 green">usunęty margines i padding z wiersza</div>
+        <div class="col-4 green"></div>
+    </div>
+</div>
+<div class="container">
+    <div class="row backgroundColorGrey">
+        <div class="col-lg-4 green">Kawasaki</div>
+        <div class="col-lg-4 blue order-3">Suzuki</div>
+        <div class="col-lg-4 red order-2">Yamaha</div>
+    </div>
+</div>
+<div class="container"> <!-- zmiana kolejnosci wyswietlania pól dla urządzenia mobilnego bez zmiany na monitorze-->
+    <div class="row backgroundColorGrey">
+        <div class="col-sm-4 green">Kawasaki</div>
+        <div class="col-sm-4 order-lg-3 order-sm-2 blue">Suzuki</div>
+        <div class="col-sm-4 order-lg-2 order-sm-3 red">Yamaha</div>
+    </div>
+</div>
+<div class="container exercise_eighth">
+    <div class="row cornflowerblue">
+        <div class="col-sm-6 order-lg-2 onlyBorder">
+            <h2>To jest tytuł 1</h2>
+            <p>A to jest paragraf 1</p>
+        </div>
+        <div class="col-sm-6 onlyBorder">
+            <h2>To jest tytuł 2</h2>
+           <p>A to jest paragraf 2</p>
+        </div>
+    </div>
+</div>
+<div class="container"><!-- offset - przesuwanie kolumn  UWAGA - przesuwanie od 1 do 11-->
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+</body>
 </html>

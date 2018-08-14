@@ -4,7 +4,6 @@
 }
 .blue {
     background: blue;
-    height: 2rem;
     border: 2px black solid;
 }
 .green {
@@ -31,5 +30,11 @@
 .backgroundColorGrey {
     background: grey;
     height: 6rem;
-    border: 2px black solid;
+    border: 2px goldenrod solid;
+}
+.cornflowerblue {
+    background: cornflowerblue;
+}
+.onlyBorder {
+    border: 1px solid whitesmoke;
 }
