@@ -1,9 +1,35 @@
 .red {
     background: red;
+    border: 2px black solid;
 }
 .blue {
     background: blue;
+    height: 2rem;
+    border: 2px black solid;
 }
 .green {
     background: green;
+    border: 2px black solid;
+}
+.vertical-align {
+    background: grey;
+    height: 12rem;
+    border: 2px black solid;
+}
+.align-items-start {
+    background: wheat;
+    height: 5rem;
+}
+.align-items-center {
+    background: yellow;
+    height: 5rem;
+}
+.align-items-end {
+    background: pink;
+    height: 5rem;
+}
+.backgroundColorGrey {
+    background: grey;
+    height: 6rem;
+    border: 2px black solid;
 }
