@@ -198,6 +198,63 @@
         <div class="col-lg-6 red">2</div>
     </div>
 </div>
-</div>
+<section> <!-- display układanie layoutu-->
+    <div class="clip d-flex"> <!-- zminaa z układu domyślnego wierszowego na kolumnowy-->
+        <div class="box">
+            <div class="smalllBox red"></div>
+            <h3>pudełko 1</h3>
+        </div>
+        <div class="box">
+            <div class="smalllBox green"></div>
+            <h3>pudełko 2</h3>
+        </div>
+        <div class="box">
+            <div class="smalllBox blue"></div>
+            <h3>pudełko 3</h3>
+        </div>
+    </div>
+    <div class="clip d-flex flex-row-reverse"> <!-- odwrócenie, jest również column-rewerse-->
+        <div class="box">
+            <div class="smalllBox red"></div>
+            <h3>pudełko 1</h3>
+        </div>
+        <div class="box">
+            <div class="smalllBox green"></div>
+            <h3>pudełko 2</h3>
+        </div>
+        <div class="box">
+            <div class="smalllBox blue"></div>
+            <h3>pudełko 3</h3>
+        </div>
+    </div>
+    <div class="clip d-flex flex-column flex-md-row justify-content-around"> <!-- wyświetlanie w zależoniści od rozdzielczości-->
+        <div class="box">
+            <div class="smalllBox red"></div>
+            <h3>pudełko 1</h3>
+        </div>
+        <div class="box">
+            <div class="smalllBox green"></div>
+            <h3>pudełko 2</h3>
+        </div>
+        <div class="box">
+            <div class="smalllBox blue"></div>
+            <h3>pudełko 3</h3>
+        </div>
+    </div>
+</section>
+<section><!-- marginesy i paddingi -->
+    <div class="box p-2">
+        <div class="smalllBox green"></div>
+        <h3>pudełko 2</h3>
+    </div>
+    <div class="box mx-4">
+        <div class="smalllBox green"></div>
+        <h3>pudełko 2</h3>
+    </div>
+    <div class="box mx-auto">
+        <div class="smalllBox green"></div>
+        <h3>pudełko 2</h3>
+    </div>
+</section>
 </body>
 </html>
