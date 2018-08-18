@@ -1,0 +1,529 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Challenge Site Bootstrap4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <div class="container">
+        <div class="row backgroundColorGrey">
+            <div class="box green text-center">
+                <p>1111</p>
+            </div>
+            <div class="box green text-right">22222</div>
+            <div class="box red text-lg-center">3333</div>
+        </div>
+        <div class="row backgroundColorGrey">
+            <div class="box green text-center text-uppercase">
+                <p>aaabbb</p>
+            </div>
+            <div class="box green text-right text-lowercase">CCDD</div>
+            <div class="box green text-center font-weight-bold">CCDD</div>
+            <div class="box red text-center text-muted">CCDD</div>
+        </div>
+        <div class="row">
+            <p class="lead">Jazda motocyklem sprawia...</p>
+            <p>uwolnienie endorfin wywołujących tak zwanego banana na buzi. Utrzymuje się on praktycznie w ciągu całej jazdy,
+                chyba że trafi sie jakiś baranek. Jednak znika on dosłownie na kilka sekund</p>
+        </div>
+        <div class="row">
+            <!--zadanie 10-->
+            <h2>Był sobie tekst, który był dodatkowo <small class="text-muted">pomniejszony i wyszarzały</small></h2>
+        </div>
+        <div class="row">
+            <!--cytaty z podpisami-->
+            <blockquote class="blockquote text-lg-center text-sm-right">
+                <p>Proin vulputate tortor vitae elit elementum malesuada. Phasellus et urna venenatis, tincidunt sapien eu,
+                    luctus mauris. Donec ultricies mi eget bibendum ultricies. Vivamus non porttitor elit. Ut porta magna
+                    in sem tristique pretium. Aliquam tincidunt dui neque. Mauris luctus, justo eget ultrices condimentum,
+                    nunc eros convallis augue, eu pulvinar magna mauris id lacus. Duis viverra sit amet orci quis sodales.
+                    Integer porta ex sit amet eros porttitor consectetur in vel velit. In nec elit nec tellus convallis mattis.
+                    Vivamus ultrices odio sed est consequat blandit quis ut arcu. Sed ac felis eu metus ultricies sollicitudin.
+                    Aenean at ex tellus.</p>
+                <footer class="blockquote-footer">Lorem ipsum</footer>
+            </blockquote>
+        </div>
+        <div class="row">
+            <!--listy plus zagniezdzanie-->
+            <ul class="list-unstyled">
+                <li>lista</li>
+                <ul>
+                    <li>podlista 1</li>
+                    <li>podlista 2</li>
+                </ul>
+            </ul>
+            <ul class="list-unstyled mx-4">
+                <li>lista</li>
+                <ul class="list-unstyled">
+                    <li>podlista 1</li>
+                    <li>podlista 2</li>
+                </ul>
+            </ul>
+            <ul class="list-unstyled mx-4 list-inline">
+                <li class="list-inline-item">lista 1</li>
+                <li class="list-inline-item">lista 2</li>
+                <li class="list-inline-item">lista 3</li>
+                <li class="list-inline-item">lista 4</li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <dl class="row">
+            <dt class="col-sm-3">Tytuł listy</dt>
+            <dd class="col-sm-9">to jest opis listy</dd>
+        </dl>
+    </div>
+    <div class="container">
+        <!-- kolory-->
+        <button type="button" class="btn btn-primary">Primary</button>
+        <p class="text-light-bg-dark">text-light</p>
+        <div class="p-3 mb-2 bg-primary text-white">bg-primary text-white</div>
+    </div>
+    <div class="container-fluid">
+        <!-- zdjecia-->
+        <img class="img-fluid" src="images/rustic-3441673_1280.jpg" alt="foto travel">
+    </div>
+    <div class="container">
+        <img class="img-fluid rounded mx-4 mb-4 mt-4 img-thumbnail" src="images/rustic-3441673_1280.jpg" alt="foto travel">
+    </div>
+    <div class="container firstTestPhoto">
+        <img class="img-fluid rounded mx-4 mb-4 mt-4 img-thumbnail float-left w-25" src="images/rustic-3441673_1280.jpg" alt="foto travel">
+        <img class="img-fluid rounded mx-4 mb-4 mt-4 img-thumbnail float-right w-25" src="images/rustic-3441673_1280.jpg" alt="foto travel">
+    </div>
+    <div class="container-fluid imageTest">
+        <img class="img-fluid float-left w-25" src="images/rustic-3441673_1280.jpg" alt="foto travel">
+        <p class="text-right">Proin vulputate tortor vitae elit elementum malesuada. Phasellus et urna venenatis, tincidunt
+            sapien eu, luctus mauris. Donec ultricies mi eget bibendum ultricies. Vivamus non porttitor elit. </p>
+    </div>
+    <div class="container exercise_eleventh mb-4 mt-4 bg-primary">
+        <img class="float-right photography img-fluid" src="images/white-ling-3598577__340.jpg" alt="foto butterfly">
+        <p class="text-justify text-white">Proin vulputate tortor vitae elit elementum malesuada. Phasellus et urna venenatis,
+            tincidunt sapien eu, luctus mauris.</p>
+    </div>
+    <div class="container">
+        <figure class="figure">
+            <img class="figure-img img-fluid" src="images/white-ling-3598577__340.jpg" alt="foto butterfly">
+            <figcaption class="figure-caption">Biały motyl</figcaption>
+        </figure>
+    </div>
+    <div class="container border border-danger firstTestPhoto mb-4">
+        <!-- border-->
+        <p> obramowanie przez klasy</p>
+    </div>
+    <div class="container border border-danger firstTestPhoto mb-4 border-right-0">
+        <p> obramowanie przez klasy z usuniętym prawym borderem</p>
+    </div>
+    <div class="container">
+        <div class="embed-responsive embed-responsive-16by9 mb-4">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tUVmuLrDC4c" frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="container mb-4">
+        <!-- button-->
+        <button class="btn btn-primary" type="submit">button</button>
+        <input class="btn btn-warning" type="button" value="input">
+        <input class="btn btn-light btn-sm" type="submit" value="submit">
+        <input class="btn btn-light btn-dark btn-lg" type="reset" value="reset">
+        <a class="btn btn-link" href="#" role="button">Link</a>
+    </div>
+    <div class="container">
+        <!--karty-->
+        <div class="card bg-success mb-4">
+            <div class="card-body">
+                <p class="text-white">this is a body card</p>
+            </div>
+        </div>
+        <div class="card mb-2 w-50">
+            <div class="card-body">
+                <h3 class="card-title mb-2 text-warning">Tytuł karty</h3>
+                <h5 class="card-subtitle border bg-primary w-50 text-white">Podtytuł karty</h5>
+                <p class="card-text text-muted">Treść do wpisania</p>
+                <a href="#" class="card-link">link do czegoś</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Nagłówek</h3>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Tytuł karty</h5>
+                        <h6>Podtytuł karty</h6>
+                        <p class="card-text">Tekst opisujący kartę</p>
+                        <a href="#" class="card-link">To jest link</a>
+                    </div>
+                    <img class="card-img-bottom img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-center">
+                    <div class="card-header">
+                        <h3>Nagłówek</h3>
+                    </div>
+                    <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                    <div class="card-body">
+                        <h5 class="card-title">Tytuł karty</h5>
+                        <h6>Podtytuł karty</h6>
+                        <p class="card-text">Tekst opisujący kartę</p>
+                        <a href="#" class="card-link">To jest link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-center">
+                    <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                    <div class="card-header">
+                        <h3>Nagłówek</h3>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Tytuł karty</h5>
+                        <h6>Podtytuł karty</h6>
+                        <p class="card-text">Tekst opisujący kartę</p>
+                        <a href="#" class="card-link">To jest link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- zdjecie jako tło-->
+            <div class="col-6 mt-4 mb-4">
+                <div class="card text-center">
+                    <img class="card-img" src="images/white-ling-3598577__340.jpg" alt="background card">
+                    <div class="card-img-overlay">
+                        <h3 class="card-title">tytuł karty</h3>
+                        <p class="card-text">jakiś tekst</p>
+                        <a href="#" class="card-link">To jest link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 mt-4 mb-4">
+                <div class="card text-center">
+                    <img class="card-img transp" src="images/white-ling-3598577__340.jpg" alt="background card">
+                    <div class="card-img-overlay">
+                        <h3 class="card-title">tytuł karty</h3>
+                        <p class="card-text">jakiś tekst</p>
+                        <a href="#" class="card-link">To jest link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mb-4">
+            <div class="col-4">
+                <div class="card text-center">
+                    <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                    <div class="card-header">
+                        <h3>Nagłówek</h3>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Jakieś sobie li 1</li>
+                        <li class="list-group-item">Jakieś sobie li 2</li>
+                        <li class="list-group-item">Jakieś sobie li 3</li>
+                    </ul>
+                    <div class="card-body">
+                        <h5 class="card-title">Tytuł karty</h5>
+                        <h6>Podtytuł karty</h6>
+                        <p class="card-text">Tekst opisujący kartę</p>
+                        <a href="#" class="card-link">To jest link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-center">
+                    <div class="card-header">
+                        <h3>Nagłówek</h3>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Jakieś sobie li 1</li>
+                        <li class="list-group-item">Jakieś sobie li 2</li>
+                    </ul>
+                    <div class="card-body">
+                        <h5 class="card-title">Tytuł karty</h5>
+                        <h6>Podtytuł karty</h6>
+                        <p class="card-text">Tekst opisujący kartę</p>
+                        <a href="#" class="card-link">To jest link</a>
+                        <img class="card-img-bottom img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                        <div class="card-footer">
+                            <p class="text-center text-success">Stopiszcze</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-center">
+                    <div class="card-header">
+                        <h3>Nagłówek</h3>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Jakieś sobie li 1</li>
+                        <li class="list-group-item">Jakieś sobie li 2</li>
+                    </ul>
+                    <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                    <div class="card-body">
+                        <h5 class="card-title">Tytuł karty</h5>
+                        <h6>Podtytuł karty</h6>
+                        <p class="card-text">Tekst opisujący kartę</p>
+                        <a href="#" class="card-link">To jest link</a>
+                        <div class="card-footer">
+                            <p class="text-center text-success">Stopiszcze</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card-group">
+            <div class="card">
+                <div class="card-header">
+                    <h3>nagłówek karty</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <p class="card-text">jakiś tekst karty</p>
+                    <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>nagłówek karty</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <p class="card-text">jakiś tekst karty</p>
+                    <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>nagłówek karty</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <p class="card-text">jakiś tekst karty</p>
+                    <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4 mb-4">
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-header">
+                    <h3>nagłówek karty</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <p class="card-text">jakiś tekst karty</p>
+                    <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>nagłówek karty</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <p class="card-text">jakiś tekst karty</p>
+                    <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>nagłówek karty</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <p class="card-text">jakiś tekst karty</p>
+                    <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4 mb-4 border">
+        <div class="card-deck mt-4 mb-4">
+            <div class="card-columns card">
+                <div class="card-header">
+                    <h3>nagłówek karty</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <p class="card-text">jakiś tekst karty</p>
+                </div>
+            </div>
+            <div class="card-columns card">
+                <div class="card-header">
+                    <h3>nagłówek karty</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <p class="card-text">jakiś tekst karty</p>
+                    <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                </div>
+            </div>
+            <div class="card-columns card">
+                <div class="card-header">
+                    <h3>nagłówek karty</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <p class="card-text">jakiś tekst karty</p>
+                </div>
+            </div>
+            <div class="card-columns card">
+                <div class="card-header">
+                    <h3>nagłówek karty</h3>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Jakieś sobie li 1</li>
+                    <li class="list-group-item">Jakieś sobie li 2</li>
+                </ul>
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <p class="card-text">jakiś tekst karty</p>
+                    <p class="card-text">jakiś tekst karty</p>
+                    <p class="card-text">jakiś tekst karty</p>
+                    <p class="card-text">jakiś tekst karty</p>
+                </div>
+            </div>
+            <div class="card-columns card">
+                <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                <div class="card-header">
+                    <h3>nagłówek karty</h3>
+                </div>
+                <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Jakieś sobie li 1</li>
+                </ul>
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <p class="card-text">jakiś tekst karty</p>
+                    <p class="card-text">jakiś tekst karty</p>
+                </div>
+            </div>
+            <div class="card bg-success mb-4">
+                <div class="card-body">
+                    <p class="text-white">this is a body card</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Masonry-->
+    <div class="conteiner">
+        <div class="card-columns">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Nagłówek</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <h6 class="card-subtitle mb-2">podtytuł karty</h6>
+                    <p class="card-text">jakiś tekst</p>
+                    <a href="#" class="card-link">jakiś</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Nagłówek</h3>
+                </div>
+                <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <h6 class="card-subtitle mb-2">podtytuł karty</h6>
+                    <p class="card-text">jakiś tekst</p>
+                    <a href="#" class="card-link">jakiś</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Nagłówek</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <h6 class="card-subtitle mb-2">podtytuł karty</h6>
+                    <p class="card-text">jakiś tekst</p>
+                    <a href="#" class="card-link">jakiś</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Nagłówek</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <h6 class="card-subtitle mb-2">podtytuł karty</h6>
+                    <p class="card-text">jakiś tekst</p>
+                    <a href="#" class="card-link">jakiś</a>
+                </div>
+                <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Nagłówek</h3>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <h6 class="card-subtitle mb-2">podtytuł karty</h6>
+                    <p class="card-text">jakiś tekst</p>
+                    <a href="#" class="card-link">jakiś</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Nagłówek</h3>
+                </div>
+                <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <h6 class="card-subtitle mb-2">podtytuł karty</h6>
+                    <p class="card-text">jakiś tekst</p>
+                    <a href="#" class="card-link">jakiś</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h3>Nagłówek</h3>
+                </div>
+                <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <h6 class="card-subtitle mb-2">podtytuł karty</h6>
+                    <p class="card-text">jakiś tekst</p>
+                    <a href="#" class="card-link">jakiś</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top img-fluid" src="images/white-ling-3598577__340.jpg" alt="photo butterfly">
+                <div class="card-body">
+                    <h5 class="card-title">tytuł karty</h5>
+                    <h6 class="card-subtitle mb-2">podtytuł karty</h6>
+                    <p class="card-text">jakiś tekst</p>
+                    <a href="#" class="card-link">jakiś</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
