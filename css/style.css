@@ -1,0 +1,115 @@
+body {
+    font-family: 'Kaushan Script', cursive;
+}
+.my-moto-marek {
+    color: gray;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+.my-moto-magda {
+   color: gray;
+}
+.my-moto-marek p {
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 0.5rem;
+}
+h1 span {
+    color: black;
+}
+.my-jumbotron {
+    width: 100%;
+    background-image: url('../images/foto_ja_marek.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40rem;
+}
+.my-jumbotron-background {
+    background: rgba(0,0,0,0.6);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.my-about-us-text::after {
+    content:'';
+    display: block;
+    border: 1px solid gray;
+    width: 12rem;
+    margin: 2rem auto;
+}
+.my-about-us-background-icon {
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid #28a745;
+    border-radius: 5rem;
+    padding: 0.5rem;
+    position: relative;
+}
+.my-about-us-icon {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.my-where-we-were-text::after {
+    content:'';
+    display: block;
+    border: 1px solid gray;
+    width: 12rem;
+    margin: 2rem auto;
+}
+.my-where-we-were-box {
+    position: relative;
+    max-width: 700px;
+}
+.my-where-we-were-box-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 65%;
+}
+.my-where-we-were-img-overlay::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 25%;
+    width: 50%;
+    content: '';
+    z-index: 0;
+    background: none repeat#28a745;
+    opacity: .4;
+    max-width: 700px;
+}
+.my-where-we-were-img-big-block img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.my-where-we-were-img-big-block img {
+    height: 15rem;
+    cursor: pointer;
+}
+.separator {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 50px;
+    width: 100%;
+}
+.separator::before,.separator::after {
+    content: '';
+    position: absolute;
+}
+.separator::before {
+    background: #28a745;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: 100% 100%;
+    transform: rotate(-1deg);
+}
+.foto-transfer:hover {
+    transform: scale(2);    
+    opacity: 4;
+    z-index: 100;
+}

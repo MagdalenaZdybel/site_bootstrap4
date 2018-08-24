@@ -6,18 +6,273 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Challenge Site Bootstrap4</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script src="js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 </head>
 
 <body>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg .navbar-fixed-top navbar-dark bg-dark">
+            <div class="container-fluid text-center">
+                <span class="navbar-brand">
+                    <i class="fas fa-motorcycle my-moto-marek ml-2 mt-2 mr-2"><p class="navbar-text text-success">Marek i
+                            Magda
+                        </p></i>
+                    <i class="fas fa-motorcycle my-moto-magda mr-2"></i>
+                </span>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a href="my-section-about-us" class="nav-link">o nas</a></li>
+                        <li class="nav-item"><a href="my-section-where-we-were" class="nav-link">gdzie byliśmy</a></li>
+                        <li class="nav-item"><a href="my-section-galeria" class="nav-link">galeria</a></li>
+                        <li class="nav-item"><a href="my-section-contact" class="nav-link">kontakt</a></li>
+                    </ul>
+                    <form class="form-inline">
+                        <input class="form-control form-control-sm" type="text" placeholder="szukaj" aria-label="search">
+                        <button class="btn btn-success">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="my-section-jumbotron">
+        <div class="jumbotron jumbotron-fluid d-flex my-jumbotron">
+            <div class="container-fluid text-center my-jumbotron-container">
+                <h1 class="display-4 text-success my-jumbotron-background">Jazda dla czystej <span class="font-weight-bold">przyjemności</span></h1>
+            </div>
+        </div>
+    </section>
+    <section class="my-section-about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center my-about-us-text">
+                    <h3 class="mb-4 text-uppercase text-success">o nas</h3>
+                    <p class="text-center">Maecenas consequat fringilla lacus et.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-sm-6 col-md-6 text-center">
+                    <div class="my-about-us-background-icon mb-4 mx-auto">
+                        <i class="fas fa-user my-about-us-icon"></i>
+                    </div>
+                    <h4 class="text-success">O nim</h4>
+                    <p>Neque porro quisquam est qui dolorem</p>
+                </div>
+                <div class="col-sm-6 col-md-6 text-center">
+                    <div class="my-about-us-background-icon mb-4 mx-auto">
+                        <i class="far fa-user my-about-us-icon"></i>
+                    </div>
+                    <h4 class="text-success">O niej</h4>
+                    <p>Neque porro quisquam est qui dolorem</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-section-numbers bg-success">
+        <div class="container my-2">
+            <div class="row justify-content-between py-4">
+                <div class="col-sm-12 col-md-4 col-lg-3 text-center text-white border border-light p-2">
+                    <h4 class="display-6">1200</h4>
+                    <p class="text-muted">kilometrów</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-3 text-center text-white border border-light p-2">
+                    <h4 class="display-6">500</h4>
+                    <p class="text-muted">litrów</p>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-3 text-center text-white border border-light p-2">
+                    <h4 class="display-6">150</h4>
+                    <p class="text-muted">godzin</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-section-where-we-were">
+        <div class="container my-5">
+            <div class="text-center">
+                <h3 class="text-uppercase my-where-we-were-text text-success">Gdzie byliśmy</h3>
+                <p class="my-5">Neque porro quisquam est qui dolorem. Maecenas consequat fringilla lacus et.</p>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 d-none d-xl-block">
+                    <div class="my-where-we-were-box mx-auto">
+                        <div class="my-where-we-were-box-img my-where-we-were-img-overlay">
+                            <a href="#"><img src="images/self-in-mirror.jpg" class="img-fluid" alt="foto zamek Książ"></a>
+                        </div>
+                        <div class="my-where-we-were-box-text text-white text-center">
+                            <h3 class="my-where-we-were-box-title text-uppercase">Zamek Książ</h3>
+                            <p>Selfi w lustrze - level up ;)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-10 col-sm-10">
+                    <div class="d-flex justify-content-around flex-wrap my-where-we-were-img-big-block">
+                        <a href="#"><img src="images/foto_ja_marek.jpg" class="img-fluid" alt="Marek na motocklu"></a>
+                        <a href="#"><img src="images/bieszczady1.jpg" class="img-fluid" alt="wspólne foto"></a>
+                        <a href="#"><img src="images/kraweznik-kawa.jpg" class="img-fluid" alt="foto wspólna kawa na krawęzniku"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-section-galeria mb-4">
+        <div class="separator"></div>
+        <div class="text-center">
+            <h3 class="text-uppercase my-where-we-were-text text-success">galeria</h3>
+            <p class="my-5">Neque porro quisquam est qui dolorem. Maecenas consequat fringilla lacus et.</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                <h3 class="text-success">Najświeższe wypady</h3>
+                <p>Foty z ostatniego wyjazdu</p>
+                <div class="card-columns">
+                    <div class="card">
+                        <img src="images/moto-serce-lubaczow.jpg" class="img-fluid foto-transfer">
+                    </div>
+                    <div class="card">
+                        <img src="images/bieszczady1.jpg" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/Marek-na-rumaku.jpg" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/moj-bzyczek.jpg" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/foto_ja_marek.jpg" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/self-in-mirror.jpg" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/kraweznik-kawa.jpg" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/lubaczow-marek.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                <h3 class="text-success">A tutaj historyczne</h3>
+                <p>czyli wspomnień czar ;) żeby miec co wspominać i do czego wzdychać po sezonie :)</p>
+                <div class="card-columns">
+                    <div class="card">
+                        <img src="images/bieszczady1.jpg" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/Marek-na-rumaku.jpg" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/moj-bzyczek.jpg" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/foto_ja_marek.jpg" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/self-in-mirror.jpg" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/kraweznik-kawa.jpg" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/DSC_0345.JPG" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/DSC_0393.JPG" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/DSC_0397.JPG" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/DSC_0394.JPG" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/DSC_0940-1.jpg" class="img-fluid">
+                    </div>
+                    <div class="card">
+                        <img src="images/DSC_0575.JPG" class="img-fluid">
+                    </div>
+                </div>
+                <div class="more-photo my-4">Więcej zdjęć znajdziesz <a href="#">tutaj</a></div>
+            </div>
+    </section>
+    <section class="video">
+        <div class="text-center">
+            <h3 class="text-uppercase my-where-we-were-text text-success">killka filmów z wyjazdów</h3>
+            <p class="my-5">Neque porro quisquam est qui dolorem. Maecenas consequat fringilla lacus et.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-ms-12 col-md-4 col-lg-4">
+                    <div class="embed-responsive embed-responsive-16by9 mb-4">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tUVmuLrDC4c" frameborder="0" allow="autoplay; encrypted-media"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-ms-12 col-md-4 col-lg-4">
+                    <div class="embed-responsive embed-responsive-16by9 mb-4">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tUVmuLrDC4c" frameborder="0" allow="autoplay; encrypted-media"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-ms-12 col-md-4 col-lg-4">
+                    <div class="embed-responsive embed-responsive-16by9 mb-4">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tUVmuLrDC4c" frameborder="0" allow="autoplay; encrypted-media"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-ms-12 col-md-4 col-lg-4">
+                    <div class="embed-responsive embed-responsive-16by9 mb-4">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tUVmuLrDC4c" frameborder="0" allow="autoplay; encrypted-media"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-ms-12 col-md-4 col-lg-4">
+                    <div class="embed-responsive embed-responsive-16by9 mb-4">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tUVmuLrDC4c" frameborder="0" allow="autoplay; encrypted-media"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-ms-12 col-md-4 col-lg-4">
+                    <div class="embed-responsive embed-responsive-16by9 mb-4">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/tUVmuLrDC4c" frameborder="0" allow="autoplay; encrypted-media"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="my-section-contact">
+        <div class="separator"></div>
+        <div class="text-center">
+            <h3 class="text-uppercase my-where-we-were-text text-success">namiary na nas</h3>
+            <p class="my-5">Jakieś pytania?</p>
+            <p class="my-4">magdalena.zdybel(at)gmail.com.pl <br /> lub <br /> marek.zdybel(at)gmail.com</p>
+        </div>
+    </section>
+    <footer class="bg-dark text-white p-4 text-center my-section-footer ">
+        <div class="container">
+            <p>&#169 2018</p>
+        </div>
+    </footer>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+        crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+        crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+        crossorigin="anonymous "></script>
 </body>
 
 </html>
